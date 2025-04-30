@@ -1,7 +1,7 @@
 ## Tip Calculator Project 🔢
 
 ### Project Overview
-This repository contains a simple yet functional tip calculator web application. Users can enter a bill amount and select a tip percentage to calculate the tip amount and total bill. The calculator features preset tip buttons and a custom tip option.
+This repository contains a simple yet functional tip calculator web application. Users can enter a bill amount and select a tip percentage to calculate the tip amount and total bill. The calculator features preset tip buttons.
 
 ![App Screenshot](https://github.com/user-attachments/assets/ef2d3788-e03f-4ec3-a7dd-f6cddd75e6d4)
 
@@ -38,7 +38,6 @@ To work on this project, you will need:
    - A heading for the calculator
    - An input group for the bill amount
    - A tip section with percentage buttons (15%, 18%, 20%)
-   - A custom tip input area
    - A result section to display the tip amount and total
 
 ### Creating the CSS File
@@ -50,7 +49,6 @@ To work on this project, you will need:
    - The calculator container
    - Input fields and their labels
    - Tip percentage buttons
-   - Custom tip input area
    - Result display section
    - Responsive design adjustments for mobile screens
 
@@ -60,7 +58,6 @@ To work on this project, you will need:
 3. Create variables to reference HTML elements using getElementById and querySelector
 4. Implement event listeners for:
    - Tip percentage buttons
-   - Custom tip input
    - Apply button
 5. Create a function to calculate and display the tip and total amount
 6. Add input validation to ensure proper bill amounts and tip percentages
@@ -73,9 +70,3 @@ To work on this project, you will need:
    - Or enter a custom tip percentage and click "Apply"
 4. View the calculated tip amount and total bill
 
-## Testing the Application
-1. Test with different bill amounts
-2. Try each of the preset tip buttons
-3. Test the custom tip feature with various percentages
-4. Verify that the calculations are correct
-5. Test on different screen sizes to ensure responsive design works

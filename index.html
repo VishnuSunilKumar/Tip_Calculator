@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internship</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="calculator">
+    <h1> Tip Calculator</h1>
+    
+    <div class="input-group">
+      <span>$</span>
+      <input type="number" id="bill-amount" placeholder="Enter bill amount" />
+    </div>
+    
+    <div class="tip-section">
+      <p>Select Tip %</p>
+      <div class="tip-buttons">
+        <button data-tip="0.15">15%</button>
+        <button data-tip="0.18">18%</button>
+        <button data-tip="0.20">20%</button>
+      </div>
+      <div class="custom-input" id="custom-input">
+        <input type="number" id="custom-tip" placeholder="%" />
+        <button id="apply-custom">Apply</button>
+      </div>
+    </div>
+    
+    <div class="result" id="result">
+      <div class="result-row">
+        <span>Tip amount</span>
+        <span id="tip-amount">$0.00</span>
+      </div>
+      <div class="result-row total">
+        <span>Total</span>
+        <span id="total-amount">$0.00</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

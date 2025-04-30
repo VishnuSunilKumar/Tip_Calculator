@@ -3,10 +3,7 @@
 ### Project Overview
 This repository contains a simple yet functional tip calculator web application. Users can enter a bill amount and select a tip percentage to calculate the tip amount and total bill. The calculator features preset tip buttons and a custom tip option.
 
-![App Screenshot](https://github.com/user-attachments/assets/6fffb882-71b4-4cc8-8fee-da15368983be)
-
-
-![App Screenshot](https://github.com/user-attachments/assets/f3c1086d-e4bb-483d-be3b-712e7a55ad85)
+![App Screenshot](https://github.com/user-attachments/assets/3acd828b-09f4-44dc-9acf-4548f7379af0)
 
 ### Project Structure
 The project consists of three main files:
